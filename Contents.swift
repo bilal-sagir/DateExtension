@@ -1,7 +1,6 @@
 import Foundation
 
 let sampleDate: Date = Date(timeIntervalSinceReferenceDate: -12345678.0)
-print(sampleDate)
 
 extension Date
 {
@@ -32,8 +31,8 @@ extension Date
 }
 
 
-
-print(sampleDate.day)
-print(sampleDate.month)
-print(sampleDate.year)
-print(sampleDate.dateAsPrettyString)
+print(sampleDate)   //2000-08-11 02:38:42 +0000
+print(sampleDate.day)   //11
+print(sampleDate.month) //08
+print(sampleDate.year)  //2000
+print(sampleDate.dateAsPrettyString)    //11<>08<>2000
